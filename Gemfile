@@ -1,3 +1,5 @@
 source 'http://rubygems.org'
 
-gem 'yajl'
+gem 'json'
+gem 'test-unit'
+gem 'yajl-ruby', require: 'yajl'

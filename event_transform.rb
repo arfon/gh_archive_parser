@@ -1,5 +1,6 @@
 require 'digest'
 require 'time'
+require 'yajl'
 
 class EventParseError < StandardError; end
 
