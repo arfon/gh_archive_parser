@@ -1,2 +1,4 @@
 language: ruby
-script: ruby event_transform_test.rb
+rvm:
+  - 2.3
+script: bundle exec ruby event_transform_test.rb
