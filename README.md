@@ -12,9 +12,9 @@ require 'yajl'
 require_relative 'event_transform'
 
 incoming = Dir.glob('files/*.json.gz')
+parse_error_count = 0
 
 incoming.each do |file|
-
   puts "*********************"
   puts "Working with #{file}"
   puts "*********************"
