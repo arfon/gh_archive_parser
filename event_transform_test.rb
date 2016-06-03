@@ -2,7 +2,6 @@ require_relative 'event_transform'
 require 'test/unit'
 require 'yajl'
 require 'yajl/json_gem'
-require 'pry'
 
 class Hash
   def deep_diff(b)
