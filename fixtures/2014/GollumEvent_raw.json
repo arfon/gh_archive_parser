@@ -1,0 +1,49 @@
+{
+  "actor": "JoseMath",
+  "actor_attributes": {
+    "login": "JoseMath",
+    "type": "User",
+    "gravatar_id": "565b7e8e4ec9f07bdbd95cfb3e5dfcda",
+    "name": "Jose",
+    "company": "University of California at Berkeley",
+    "blog": "http://math.berkeley.edu/~jrodrig/",
+    "email": "jo.ro@berkeley.edu"
+  },
+  "created_at": "2014-02-15T00:03:58-08:00",
+  "payload": {
+    "pages": [
+      {
+        "page_name": "Bertini",
+        "title": "Bertini",
+        "summary": null,
+        "action": "edited",
+        "sha": "dee29686429125d25ecff1d047ba836fc2cfcdbb",
+        "html_url": "https://github.com/antonleykin/M2/wiki/Bertini"
+      }
+    ]
+  },
+  "public": true,
+  "repository": {
+    "id": 7528001,
+    "name": "M2",
+    "url": "https://github.com/antonleykin/M2",
+    "description": "The primary source code repository for Macaulay2",
+    "watchers": 1,
+    "stargazers": 1,
+    "forks": 2,
+    "fork": true,
+    "size": 27674,
+    "owner": "antonleykin",
+    "private": false,
+    "open_issues": 0,
+    "has_issues": false,
+    "has_downloads": true,
+    "has_wiki": true,
+    "language": "C++",
+    "created_at": "2013-01-09T12:04:00-08:00",
+    "pushed_at": "2014-02-13T20:28:16-08:00",
+    "master_branch": "master"
+  },
+  "type": "GollumEvent",
+  "url": "https://github.com/antonleykin/M2/wiki/Bertini"
+}

@@ -1,0 +1,48 @@
+{
+  "actor": {
+    "id": null,
+    "login": "benniel",
+    "gravatar_id": "3d3e780445a83ddc0503fe189b341825",
+    "avatar_url": null,
+    "url": null
+  },
+  "created_at": "2014-02-15 08:05:49",
+  "id": null,
+  "org": {
+    "login": "cilib"
+  },
+  "other": {
+    "repository": {
+      "description": "",
+      "watchers": 0,
+      "stargazers": 0,
+      "forks": 4,
+      "fork": false,
+      "size": 792,
+      "owner": "cilib",
+      "private": false,
+      "open_issues": 1,
+      "has_issues": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "language": "Python",
+      "created_at": "2012-11-13T03:19:07-08:00",
+      "pushed_at": "2014-02-11T11:58:41-08:00",
+      "master_branch": "master",
+      "organization": "cilib"
+    },
+    "actor_attributes": {
+      "type": "User",
+      "name": "Bennie Leonard",
+      "email": "5498b47631e6d2b37d461337b03b3260408ba28b@gmail.com"
+    }
+  },
+  "payload": "{\"comment\":{\"url\":\"https://api.github.com/repos/cilib/pleiades/pulls/comments/9771981\",\"id\":9771981,\"diff_hunk\":\"@@ -101,21 +102,17 @@ def handle_JobRequestMessage(self, msg):\\n             possible_users = [i for i in available_users if not allowed_users or i in allowed_users]\\n \\n             actual_user = self.db.running.aggregate([\\n-                {\\n-                    '$match': {'user_id': {'$in': possible_users}}\\n-                }, {\\n-                    '$group': {'_id': '$user_id', 'count': {'$sum': 1}}\\n-                }\\n+                {'$match': {'user_id': {'$in': possible_users}, 'worker_id': re.compile('^' + worker_host + '.*')}},\",\"path\":\"server.py\",\"position\":24,\"original_position\":24,\"commit_id\":\"8b05811868c4d0e2c4883b334183d26e03595318\",\"original_commit_id\":\"8b05811868c4d0e2c4883b334183d26e03595318\",\"user\":{\"login\":\"benniel\",\"id\":928852,\"avatar_url\":\"https://gravatar.com/avatar/3d3e780445a83ddc0503fe189b341825?d=https%3A%2F%2Fidenticons.github.com%2F96d187dd9967bbc4f2a0bc3270fbc58c.png&r=x\",\"gravatar_id\":\"3d3e780445a83ddc0503fe189b341825\",\"url\":\"https://api.github.com/users/benniel\",\"html_url\":\"https://github.com/benniel\",\"followers_url\":\"https://api.github.com/users/benniel/followers\",\"following_url\":\"https://api.github.com/users/benniel/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/benniel/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/benniel/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/benniel/subscriptions\",\"organizations_url\":\"https://api.github.com/users/benniel/orgs\",\"repos_url\":\"https://api.github.com/users/benniel/repos\",\"events_url\":\"https://api.github.com/users/benniel/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/benniel/received_events\",\"type\":\"User\",\"site_admin\":false},\"body\":\"Will this work correctly for many users? What if there are five users and 4 workers on each node? Won't the last user's job stagnate until someone else's completes?\",\"created_at\":\"2014-02-15T08:05:49Z\",\"updated_at\":\"2014-02-15T08:05:49Z\",\"html_url\":\"https://github.com/cilib/pleiades/pull/45#discussion_r9771981\",\"pull_request_url\":\"https://api.github.com/repos/cilib/pleiades/pulls/45\",\"_links\":{\"self\":{\"href\":\"https://api.github.com/repos/cilib/pleiades/pulls/comments/9771981\"},\"html\":{\"href\":\"https://github.com/cilib/pleiades/pull/45#discussion_r9771981\"},\"pull_request\":{\"href\":\"https://api.github.com/repos/cilib/pleiades/pulls/45\"}}}}",
+  "public": true,
+  "repo": {
+    "id": 6669517,
+    "url": "https://github.com/cilib/pleiades",
+    "name": "pleiades"
+  },
+  "type": "PullRequestReviewCommentEvent"
+}

@@ -1,0 +1,91 @@
+{
+  "actor": {
+    "id": 45252,
+    "login": "gcr",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gcr",
+    "avatar_url": "https://avatars.githubusercontent.com/u/45252?"
+  },
+  "created_at": "2016-02-15T00:00:05Z",
+  "id": "3643335813",
+  "payload": {
+    "action": "created",
+    "issue": {
+      "url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/4",
+      "repository_url": "https://api.github.com/repos/gcr/torch-residual-networks",
+      "labels_url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/4/labels{/name}",
+      "comments_url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/4/comments",
+      "events_url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/4/events",
+      "html_url": "https://github.com/gcr/torch-residual-networks/issues/4",
+      "id": 128686466,
+      "number": 4,
+      "title": "How to use lab-workbook in train-cifar.lua",
+      "user": {
+        "login": "lim0606",
+        "id": 4983224,
+        "avatar_url": "https://avatars.githubusercontent.com/u/4983224?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lim0606",
+        "html_url": "https://github.com/lim0606",
+        "followers_url": "https://api.github.com/users/lim0606/followers",
+        "following_url": "https://api.github.com/users/lim0606/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lim0606/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lim0606/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lim0606/subscriptions",
+        "organizations_url": "https://api.github.com/users/lim0606/orgs",
+        "repos_url": "https://api.github.com/users/lim0606/repos",
+        "events_url": "https://api.github.com/users/lim0606/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lim0606/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "labels": [
+
+      ],
+      "state": "closed",
+      "locked": false,
+      "assignee": null,
+      "milestone": null,
+      "comments": 6,
+      "created_at": "2016-01-26T00:51:06Z",
+      "updated_at": "2016-02-15T00:00:05Z",
+      "closed_at": "2016-01-28T13:08:20Z",
+      "body": "Hi, \r\n\r\nFirst of all, thank you for sharing your review work. \r\n\r\nIt seems that `lab-workbook` is required to make snapshot in `train-cifar.lua`; thus I installed it with your repository (https://github.com/gcr/lab-workbook). \r\n\r\nHowever, this package asked me to have a configuration file `~/.lab-workbook-config`, and I have no idea how to set it. \r\n\r\nIs there anyone who help me to use it? \r\n\r\nI would also appreciate if someone let me know I can snapshot weights with other methods. I used to use caffe and I'm new to lua and torch. \r\n\r\nThanks, "
+    },
+    "comment": {
+      "url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/comments/184008779",
+      "html_url": "https://github.com/gcr/torch-residual-networks/issues/4#issuecomment-184008779",
+      "issue_url": "https://api.github.com/repos/gcr/torch-residual-networks/issues/4",
+      "id": 184008779,
+      "user": {
+        "login": "gcr",
+        "id": 45252,
+        "avatar_url": "https://avatars.githubusercontent.com/u/45252?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/gcr",
+        "html_url": "https://github.com/gcr",
+        "followers_url": "https://api.github.com/users/gcr/followers",
+        "following_url": "https://api.github.com/users/gcr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gcr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/gcr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gcr/subscriptions",
+        "organizations_url": "https://api.github.com/users/gcr/orgs",
+        "repos_url": "https://api.github.com/users/gcr/repos",
+        "events_url": "https://api.github.com/users/gcr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/gcr/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "created_at": "2016-02-15T00:00:05Z",
+      "updated_at": "2016-02-15T00:00:05Z",
+      "body": "Sure, @dasguptar ! Here's some documentation for the `lab-workbook` library:\r\n\r\nhttps://github.com/gcr/lab-workbook#readme\r\n\r\nHope this helps!\r\n\r\nIf you don't like this library, I hope it's pretty easy to replace all the calls with logging/saving of your choice. It should be pretty self-evident what each call is doing..."
+    }
+  },
+  "public": true,
+  "repo": {
+    "id": 48864932,
+    "name": "gcr/torch-residual-networks",
+    "url": "https://api.github.com/repos/gcr/torch-residual-networks"
+  },
+  "type": "IssueCommentEvent"
+}

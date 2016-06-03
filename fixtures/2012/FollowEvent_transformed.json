@@ -1,0 +1,23 @@
+{
+  "actor": {
+    "id": 161722,
+    "login": "dbinetti",
+    "gravatar_id": "4a15cccadcfc126763f0ad4e1b032446",
+    "avatar_url": "https://secure.gravatar.com/avatar/4a15cccadcfc126763f0ad4e1b032446?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "url": "https://api.github.dev/users/dbinetti"
+  },
+  "created_at": "2012-02-15 00:02:44",
+  "id": "1519872082",
+  "org": null,
+  "other": {
+
+  },
+  "payload": "{\"target\":{\"created_at\":\"2008-10-28T03:50:49Z\",\"id\":31369,\"login\":\"justinlynn\",\"type\":\"User\",\"public_repos\":9,\"html_url\":\"https://github.com/justinlynn\",\"bio\":null,\"email\":\"j+github@jaesharp.com\",\"following\":0,\"name\":\"Justin Lynn\",\"blog\":\"http://www.jaesharp.com\",\"hireable\":false,\"url\":\"https://api.github.com/users/justinlynn\",\"company\":null,\"public_gists\":2,\"location\":\"San Francisco, CA\",\"gravatar_id\":\"9b91b6467578ada3f673497824642a23\",\"avatar_url\":\"https://secure.gravatar.com/avatar/9b91b6467578ada3f673497824642a23?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png\",\"followers\":1}}",
+  "public": true,
+  "repo": {
+    "id": null,
+    "url": "https://api.github.dev/repos//",
+    "name": "/"
+  },
+  "type": "FollowEvent"
+}

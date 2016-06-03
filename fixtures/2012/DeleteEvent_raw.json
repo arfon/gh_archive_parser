@@ -1,0 +1,29 @@
+{
+  "actor": {
+    "login": "seif",
+    "id": 141900,
+    "url": "https://api.github.dev/users/seif",
+    "avatar_url": "https://secure.gravatar.com/avatar/65c92284eda1277163f3bdc83819c76e?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "gravatar_id": "65c92284eda1277163f3bdc83819c76e"
+  },
+  "created_at": "2012-02-15T00:00:24Z",
+  "id": "1519871585",
+  "org": {
+    "login": "sharparchitecture",
+    "id": 393521,
+    "url": "https://api.github.dev/orgs/sharparchitecture",
+    "avatar_url": "https://secure.gravatar.com/avatar/583fd7824cf8fc3d73e572dd059e3d53?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-org-420.png",
+    "gravatar_id": "583fd7824cf8fc3d73e572dd059e3d53"
+  },
+  "payload": {
+    "ref": "contrib",
+    "ref_type": "branch"
+  },
+  "public": true,
+  "repo": {
+    "id": 1063071,
+    "url": "https://api.github.dev/repos/sharparchitecture/Sharp-Architecture-Cookbook",
+    "name": "sharparchitecture/Sharp-Architecture-Cookbook"
+  },
+  "type": "DeleteEvent"
+}

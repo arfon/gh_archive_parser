@@ -1,0 +1,25 @@
+{
+  "actor": {
+    "id": 1490444,
+    "login": "machadoum",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/machadoum",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1490444?"
+  },
+  "created_at": "2015-02-15T00:00:06Z",
+  "id": "2582217136",
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "Simple Http proxy example",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "repo": {
+    "id": 30812689,
+    "name": "machadoum/simple-http-proxy",
+    "url": "https://api.github.com/repos/machadoum/simple-http-proxy"
+  },
+  "type": "CreateEvent"
+}

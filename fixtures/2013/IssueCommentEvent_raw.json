@@ -1,0 +1,42 @@
+{
+  "actor": "darkyen",
+  "actor_attributes": {
+    "name": "Abhishek Hingnikar",
+    "company": "VosCast",
+    "blog": "http://hingnikar.com",
+    "location": "India",
+    "email": "djdark88.7@gmail.com",
+    "login": "darkyen",
+    "type": "User",
+    "gravatar_id": "51ee70705b6b493a3b390a5dd5c9d949"
+  },
+  "created_at": "2013-02-15T00:00:43-08:00",
+  "payload": {
+    "issue_id": 11004099,
+    "comment_id": 13595919
+  },
+  "public": true,
+  "repository": {
+    "id": 8202275,
+    "name": "filur",
+    "url": "https://github.com/SoJavaScriptRoom/filur",
+    "description": "filur",
+    "watchers": 1,
+    "stargazers": 1,
+    "forks": 0,
+    "fork": false,
+    "size": 132,
+    "owner": "SoJavaScriptRoom",
+    "private": false,
+    "open_issues": 0,
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "created_at": "2013-02-14T07:47:08-08:00",
+    "pushed_at": "2013-02-15T00:00:08-08:00",
+    "master_branch": "master",
+    "organization": "SoJavaScriptRoom"
+  },
+  "type": "IssueCommentEvent",
+  "url": "https://github.com/SoJavaScriptRoom/filur/issues/1#issuecomment-13595919"
+}

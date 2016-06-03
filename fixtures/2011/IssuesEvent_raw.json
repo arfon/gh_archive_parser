@@ -1,0 +1,33 @@
+{
+  "actor": {
+    "gravatar_id": "404e184f97b08329e4f2296649e79a26",
+    "id": 163648,
+    "url": "https://api.github.dev/users/marcinkuzminski",
+    "avatar_url": "https://secure.gravatar.com/avatar/404e184f97b08329e4f2296649e79a26?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "login": "marcinkuzminski"
+  },
+  "created_at": "2011-02-15T00:00:46Z",
+  "id": "1132221014",
+  "org": {
+    "gravatar_id": "4f56aece26fb460572317d8374bbab4f",
+    "id": 438374,
+    "url": "https://api.github.dev/orgs/codeinn",
+    "avatar_url": "https://secure.gravatar.com/avatar/4f56aece26fb460572317d8374bbab4f?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-org-420.png",
+    "login": "codeinn"
+  },
+  "payload": {
+    "number": 36,
+    "repo": "codeinn/vcs",
+    "actor": "marcinkuzminski",
+    "issue": 545975,
+    "actor_gravatar": "404e184f97b08329e4f2296649e79a26",
+    "action": "closed"
+  },
+  "public": true,
+  "repo": {
+    "id": 1277769,
+    "url": "https://api.github.dev/repos/codeinn/vcs",
+    "name": "codeinn/vcs"
+  },
+  "type": "IssuesEvent"
+}

@@ -1,0 +1,48 @@
+{
+  "actor": {
+    "id": null,
+    "login": "perqa",
+    "gravatar_id": "a529c59f8c5ca62974e56c85865f8464",
+    "avatar_url": null,
+    "url": null
+  },
+  "created_at": "2014-02-15 08:03:59",
+  "id": null,
+  "org": {
+    "login": "Automattic"
+  },
+  "other": {
+    "repository": {
+      "description": "A memcached HTML page cache for WordPress.",
+      "homepage": "http://wordpress.org/extend/plugins/batcache/",
+      "watchers": 61,
+      "stargazers": 61,
+      "forks": 26,
+      "fork": false,
+      "size": 80,
+      "owner": "Automattic",
+      "private": false,
+      "open_issues": 17,
+      "has_issues": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "language": "PHP",
+      "created_at": "2009-09-04T12:48:01-07:00",
+      "pushed_at": "2013-07-19T17:55:10-07:00",
+      "master_branch": "master",
+      "organization": "Automattic"
+    },
+    "actor_attributes": {
+      "type": "User",
+      "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    }
+  },
+  "payload": "{\"issue_id\":19613846,\"comment_id\":35149940}",
+  "public": true,
+  "repo": {
+    "id": 297871,
+    "url": "https://github.com/Automattic/batcache",
+    "name": "batcache"
+  },
+  "type": "IssueCommentEvent"
+}

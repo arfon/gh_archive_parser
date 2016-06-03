@@ -1,0 +1,23 @@
+{
+  "actor": {
+    "id": 342922,
+    "login": "coyotte508",
+    "url": "https://api.github.dev/users/coyotte508",
+    "avatar_url": "https://secure.gravatar.com/avatar/3a07b5d26bf486a8d691d8ba475f33e4?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "gravatar_id": "3a07b5d26bf486a8d691d8ba475f33e4"
+  },
+  "created_at": "2012-02-15T00:23:41Z",
+  "id": "1519877398",
+  "payload": {
+    "after": "cc7ce316930ecfb68e63883d74839ef573cb9931",
+    "before": "fe2114b99543a6668e732d214b6068e15d47f6f9",
+    "head": "devel"
+  },
+  "public": true,
+  "repo": {
+    "id": 2309028,
+    "url": "https://api.github.dev/repos/coyotte508/pokemon-online",
+    "name": "coyotte508/pokemon-online"
+  },
+  "type": "ForkApplyEvent"
+}

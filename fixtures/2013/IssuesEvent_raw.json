@@ -1,0 +1,41 @@
+{
+  "actor": "florianpirchner",
+  "actor_attributes": {
+    "name": "Florian Pirchner",
+    "blog": "redVoodo.org",
+    "location": "Vienna",
+    "email": "florian.pirchner@gmail.com",
+    "login": "florianpirchner",
+    "type": "User",
+    "gravatar_id": "7f5b7b1719594c2e13fb3b81576da6c0"
+  },
+  "created_at": "2013-02-15T00:00:34-08:00",
+  "payload": {
+    "action": "closed",
+    "issue": 11005329,
+    "number": 28
+  },
+  "public": true,
+  "repository": {
+    "id": 6816606,
+    "name": "lunifera-issues",
+    "url": "https://github.com/lunifera/lunifera-issues",
+    "description": "Dummy repo - All the issues should be added here",
+    "watchers": 0,
+    "stargazers": 0,
+    "forks": 0,
+    "fork": false,
+    "size": 76,
+    "owner": "lunifera",
+    "private": false,
+    "open_issues": 0,
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "created_at": "2012-11-22T09:15:31-08:00",
+    "pushed_at": "2012-11-22T09:15:31-08:00",
+    "master_branch": "master"
+  },
+  "type": "IssuesEvent",
+  "url": "https://github.com/lunifera/lunifera-issues/issues/28"
+}

@@ -1,0 +1,27 @@
+{
+  "actor": {
+    "gravatar_id": "cc4c27bbac18afe33fdce155758d854d",
+    "id": 61148,
+    "url": "https://api.github.dev/users/balupton",
+    "avatar_url": "https://secure.gravatar.com/avatar/cc4c27bbac18afe33fdce155758d854d?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "login": "balupton"
+  },
+  "created_at": "2011-02-15T00:01:53Z",
+  "id": "1132223592",
+  "payload": {
+    "target": {
+      "gravatar_id": "9210a60b1492363560375d9cd6c842de",
+      "repos": 18,
+      "followers": 30,
+      "login": "mjijackson"
+    },
+    "actor": "balupton",
+    "actor_gravatar": "cc4c27bbac18afe33fdce155758d854d"
+  },
+  "public": true,
+  "repo": {
+    "url": "https://api.github.dev/repos//",
+    "name": "/"
+  },
+  "type": "FollowEvent"
+}

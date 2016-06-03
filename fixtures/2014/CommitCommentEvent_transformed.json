@@ -1,0 +1,48 @@
+{
+  "actor": {
+    "id": null,
+    "login": "bobisjan",
+    "gravatar_id": "7a468faec3b45150e655fb60acd359d8",
+    "avatar_url": null,
+    "url": null
+  },
+  "created_at": "2014-02-15 08:05:24",
+  "id": null,
+  "org": null,
+  "other": {
+    "repository": {
+      "description": "An adaptive RESTful API framework for Java",
+      "watchers": 0,
+      "stargazers": 0,
+      "forks": 0,
+      "fork": false,
+      "size": 184,
+      "owner": "bobisjan",
+      "private": false,
+      "open_issues": 0,
+      "has_issues": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "language": "Java",
+      "created_at": "2014-01-14T03:45:07-08:00",
+      "pushed_at": "2014-02-13T11:06:30-08:00",
+      "master_branch": "master"
+    },
+    "actor_attributes": {
+      "type": "User",
+      "name": "Jan Bobisud",
+      "company": "Capgemini",
+      "blog": "",
+      "location": "Prague",
+      "email": "b1c1d8736f20db3fb6c1c66bb1455ed43909f0d8@bobisjan.com"
+    }
+  },
+  "payload": "{\"commit\":\"e58da5e64e28b6b3452a9a2fc873e48d8bb29daf\",\"comment_id\":5386014}",
+  "public": true,
+  "repo": {
+    "id": 15900416,
+    "url": "https://github.com/bobisjan/adaptive-restful-api",
+    "name": "adaptive-restful-api"
+  },
+  "type": "CommitCommentEvent"
+}

@@ -1,0 +1,38 @@
+{
+  "actor": "b1m4w3n",
+  "actor_attributes": {
+    "login": "b1m4w3n",
+    "type": "User",
+    "gravatar_id": "543ee91b2d7fe8bc0824305b99e6583f"
+  },
+  "created_at": "2014-02-15T00:03:54-08:00",
+  "payload": {
+    "ref": "gh-pages",
+    "ref_type": "branch",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "repository": {
+    "id": 16857883,
+    "name": "dreamfactory",
+    "url": "https://github.com/b1m4w3n/dreamfactory",
+    "description": "dream factory",
+    "watchers": 0,
+    "stargazers": 0,
+    "forks": 0,
+    "fork": false,
+    "size": 0,
+    "owner": "b1m4w3n",
+    "private": false,
+    "open_issues": 0,
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "language": "Java",
+    "created_at": "2014-02-14T22:31:43-08:00",
+    "pushed_at": "2014-02-15T00:03:54-08:00",
+    "master_branch": "master"
+  },
+  "type": "DeleteEvent",
+  "url": "https://github.com/"
+}

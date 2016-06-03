@@ -1,0 +1,31 @@
+{
+  "actor": {
+    "login": "lukeredpath",
+    "id": 613,
+    "url": "https://api.github.dev/users/lukeredpath",
+    "avatar_url": "https://secure.gravatar.com/avatar/bdd4d23d1a822b2d68b53e7c51d69a39?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "gravatar_id": "bdd4d23d1a822b2d68b53e7c51d69a39"
+  },
+  "created_at": "2012-02-15T00:04:21Z",
+  "id": "1519872465",
+  "payload": {
+    "download": {
+      "created_at": "2012-02-15T00:01:15Z",
+      "id": 189853,
+      "download_count": 0,
+      "html_url": "https://github.com/downloads/lukeredpath/libPusher/libPusher-OSX-nightly.zip",
+      "name": "libPusher-OSX-nightly.zip",
+      "description": "Nightly automated build, SHA b868b5b (15/02/2012)",
+      "url": "https://api.github.com/repos/lukeredpath/libPusher/downloads/189853",
+      "content_type": "application/octet-stream",
+      "size": 0
+    }
+  },
+  "public": true,
+  "repo": {
+    "id": 574304,
+    "url": "https://api.github.dev/repos/lukeredpath/libPusher",
+    "name": "lukeredpath/libPusher"
+  },
+  "type": "DownloadEvent"
+}

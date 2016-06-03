@@ -1,0 +1,28 @@
+{
+  "actor": {
+    "id": 5168122,
+    "login": "moazam1",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/moazam1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5168122?"
+  },
+  "created_at": "2016-02-15T00:00:02Z",
+  "id": "3643335756",
+  "org": {
+    "id": 17042185,
+    "login": "moneyphp",
+    "gravatar_id": "",
+    "url": "https://api.github.com/orgs/moneyphp",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17042185?"
+  },
+  "payload": {
+    "action": "started"
+  },
+  "public": true,
+  "repo": {
+    "id": 1543827,
+    "name": "moneyphp/money",
+    "url": "https://api.github.com/repos/moneyphp/money"
+  },
+  "type": "WatchEvent"
+}

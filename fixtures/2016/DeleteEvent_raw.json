@@ -1,0 +1,23 @@
+{
+  "actor": {
+    "id": 1516985,
+    "login": "Baggykiin",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Baggykiin",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1516985?"
+  },
+  "created_at": "2016-02-15T00:00:10Z",
+  "id": "3643335971",
+  "payload": {
+    "ref": "restructuring",
+    "ref_type": "branch",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "repo": {
+    "id": 9300232,
+    "name": "Baggykiin/BaggyBot-2",
+    "url": "https://api.github.com/repos/Baggykiin/BaggyBot-2"
+  },
+  "type": "DeleteEvent"
+}

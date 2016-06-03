@@ -1,0 +1,58 @@
+{
+  "actor": {
+    "id": 6558873,
+    "login": "dborstelmann",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dborstelmann",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6558873?"
+  },
+  "created_at": "2016-02-15T00:00:30Z",
+  "id": "3643336417",
+  "org": {
+    "id": 15348861,
+    "login": "CiviWikiorg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/orgs/CiviWikiorg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15348861?"
+  },
+  "payload": {
+    "comment": {
+      "url": "https://api.github.com/repos/CiviWikiorg/civiwiki.org/comments/16086374",
+      "html_url": "https://github.com/CiviWikiorg/civiwiki.org/commit/49fb91dbdc2f3046c51fa87124e01bc2fcc96909#commitcomment-16086374",
+      "id": 16086374,
+      "user": {
+        "login": "dborstelmann",
+        "id": 6558873,
+        "avatar_url": "https://avatars.githubusercontent.com/u/6558873?v=3",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dborstelmann",
+        "html_url": "https://github.com/dborstelmann",
+        "followers_url": "https://api.github.com/users/dborstelmann/followers",
+        "following_url": "https://api.github.com/users/dborstelmann/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dborstelmann/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dborstelmann/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dborstelmann/subscriptions",
+        "organizations_url": "https://api.github.com/users/dborstelmann/orgs",
+        "repos_url": "https://api.github.com/users/dborstelmann/repos",
+        "events_url": "https://api.github.com/users/dborstelmann/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dborstelmann/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "position": 50,
+      "line": 50,
+      "path": "civiwiki/frontend/static/views/database.js",
+      "commit_id": "49fb91dbdc2f3046c51fa87124e01bc2fcc96909",
+      "created_at": "2016-02-15T00:00:30Z",
+      "updated_at": "2016-02-15T00:00:30Z",
+      "body": "This freaks me out, why are you just calling render without doing anything?"
+    }
+  },
+  "public": true,
+  "repo": {
+    "id": 45063491,
+    "name": "CiviWikiorg/civiwiki.org",
+    "url": "https://api.github.com/repos/CiviWikiorg/civiwiki.org"
+  },
+  "type": "CommitCommentEvent"
+}

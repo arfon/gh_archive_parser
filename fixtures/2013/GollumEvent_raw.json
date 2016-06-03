@@ -1,0 +1,50 @@
+{
+  "actor": "codehelp",
+  "actor_attributes": {
+    "name": "Neil Williams",
+    "company": "Debian",
+    "blog": "http://linux.codehelp.co.uk",
+    "location": "Cambridge, UK",
+    "email": "codehelp@debian.org",
+    "login": "codehelp",
+    "type": "User",
+    "gravatar_id": "c7af23a4098ceb628f806c580f73d3c3"
+  },
+  "created_at": "2013-02-15T00:00:58-08:00",
+  "payload": {
+    "pages": [
+      {
+        "page_name": "Debian Repository Watcher",
+        "title": "Debian Repository Watcher",
+        "summary": null,
+        "action": "edited",
+        "sha": "b3d71efad1581de4fc4ff7224956d89ac781a517",
+        "html_url": "https://github.com/nicholasdavidson/pybit/wiki/Debian-Repository-Watcher"
+      }
+    ]
+  },
+  "public": true,
+  "repository": {
+    "id": 6487489,
+    "name": "pybit",
+    "url": "https://github.com/nicholasdavidson/pybit",
+    "description": "Python Build Integration Toolkit - a distributed cross platform AMQP based build system",
+    "watchers": 10,
+    "stargazers": 10,
+    "forks": 3,
+    "fork": false,
+    "size": 1781,
+    "owner": "nicholasdavidson",
+    "private": false,
+    "open_issues": 2,
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "language": "Python",
+    "created_at": "2012-11-01T02:52:48-07:00",
+    "pushed_at": "2013-02-14T23:39:24-08:00",
+    "master_branch": "master"
+  },
+  "type": "GollumEvent",
+  "url": "https://github.com/nicholasdavidson/pybit/wiki/Debian-Repository-Watcher"
+}

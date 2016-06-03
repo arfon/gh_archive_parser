@@ -1,0 +1,47 @@
+{
+  "actor": {
+    "id": null,
+    "login": "bitdeli-chef",
+    "gravatar_id": "b42c651650ec8d3d95829c75e318af2d",
+    "avatar_url": null,
+    "url": null
+  },
+  "created_at": "2014-02-15 08:04:15",
+  "id": null,
+  "org": null,
+  "other": {
+    "repository": {
+      "description": "Pulp - What is Paper made of?",
+      "watchers": 0,
+      "stargazers": 0,
+      "forks": 1,
+      "fork": false,
+      "size": 0,
+      "owner": "saniul",
+      "private": false,
+      "open_issues": 0,
+      "has_issues": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "created_at": "2014-02-09T15:42:25-08:00",
+      "pushed_at": "2014-02-09T16:13:51-08:00",
+      "master_branch": "master"
+    },
+    "actor_attributes": {
+      "type": "User",
+      "name": "Bitdeli Chef",
+      "company": "Bitdeli",
+      "blog": "https://bitdeli.com/free",
+      "location": "San Francisco,CA",
+      "email": "5bdcd3c0d4d24ae3e71b3b452a024c6324c7e4bb@bitdeli.com"
+    }
+  },
+  "payload": "{}",
+  "public": true,
+  "repo": {
+    "id": 16678988,
+    "url": "https://github.com/saniul/Pulp",
+    "name": "Pulp"
+  },
+  "type": "ForkEvent"
+}

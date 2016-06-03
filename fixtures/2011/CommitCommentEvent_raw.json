@@ -1,0 +1,25 @@
+{
+  "actor": {
+    "gravatar_id": "742ec7d1886c1542984c988e61f76fa5",
+    "id": 131652,
+    "url": "https://api.github.dev/users/dwo",
+    "avatar_url": "https://secure.gravatar.com/avatar/742ec7d1886c1542984c988e61f76fa5?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "login": "dwo"
+  },
+  "created_at": "2011-02-15T00:00:50Z",
+  "id": "1132221036",
+  "payload": {
+    "repo": "mig/gedit-themes",
+    "actor": "dwo",
+    "comment_id": 271424,
+    "actor_gravatar": "742ec7d1886c1542984c988e61f76fa5",
+    "commit": "f9b431473c0df08af57c11e3fe4f315b2d28a7a2"
+  },
+  "public": true,
+  "repo": {
+    "id": 3206,
+    "url": "https://api.github.dev/repos/mig/gedit-themes",
+    "name": "mig/gedit-themes"
+  },
+  "type": "CommitCommentEvent"
+}

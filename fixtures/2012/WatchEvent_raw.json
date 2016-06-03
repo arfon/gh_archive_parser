@@ -1,0 +1,21 @@
+{
+  "actor": {
+    "id": 1437645,
+    "login": "rautiocination",
+    "url": "https://api.github.dev/users/rautiocination",
+    "avatar_url": "https://secure.gravatar.com/avatar/999bf99c57044f28f3e8d5f1cb4a0bfe?d=http://github.dev%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "gravatar_id": "999bf99c57044f28f3e8d5f1cb4a0bfe"
+  },
+  "created_at": "2012-02-15T00:00:00Z",
+  "id": "1519871547",
+  "payload": {
+    "action": "started"
+  },
+  "public": true,
+  "repo": {
+    "id": 117549,
+    "url": "https://api.github.dev/repos/toastdriven/django-haystack",
+    "name": "toastdriven/django-haystack"
+  },
+  "type": "WatchEvent"
+}
