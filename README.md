@@ -6,7 +6,7 @@ Some rather unpleasant code that can be used to normalize the structure of GitHu
 
 ## Usage
 
-Assuming you have a folder called `files` with a bunch of [GitHub Archive](https://www.githubarchive.org/) compressed JSON files e.g. `http://data.githubarchive.org/2015-01-01-15.json.gz` then the following code should extract the JSON and normalize it to the schema expected by the GitHub Archive ([`schema.js`](https://github.com/igrigorik/githubarchive.org/blob/master/bigquery/schema.js)).
+Assuming you have a folder called `files` with a bunch of [GitHub Archive](https://www.githubarchive.org/) compressed JSON files e.g. `http://data.githubarchive.org/2015-01-01-15.json.gz` then the following code (also in `parse.rb`) should extract the JSON and normalize it to the schema expected by the GitHub Archive ([`schema.js`](https://github.com/igrigorik/githubarchive.org/blob/master/bigquery/schema.js)).
 
 ```ruby
 require 'zlib'
