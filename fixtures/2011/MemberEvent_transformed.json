@@ -1,4 +1,11 @@
 {
+  "payload": "{\"repo\":\"mbasnight/celery_nova\",\"member\":\"rnirmal\",\"actor\":\"mbasnight\",\"actor_gravatar\":\"2f3f68f62f5fc642f0b716b355071176\",\"action\":\"added\"}",
+  "public": true,
+  "repo": {
+    "id": 1356326,
+    "url": "https://api.github.dev/repos/hub-cap/celery_nova",
+    "name": "hub-cap/celery_nova"
+  },
   "actor": {
     "id": 613352,
     "login": "hub-cap",
@@ -8,16 +15,5 @@
   },
   "created_at": "2011-02-15 00:00:09",
   "id": "1132219645",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"repo\":\"mbasnight/celery_nova\",\"member\":\"rnirmal\",\"actor\":\"mbasnight\",\"actor_gravatar\":\"2f3f68f62f5fc642f0b716b355071176\",\"action\":\"added\"}",
-  "public": true,
-  "repo": {
-    "id": 1356326,
-    "url": "https://api.github.dev/repos/hub-cap/celery_nova",
-    "name": "hub-cap/celery_nova"
-  },
   "type": "MemberEvent"
 }

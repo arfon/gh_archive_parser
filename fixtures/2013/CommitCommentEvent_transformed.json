@@ -1,14 +1,16 @@
 {
+  "payload": "{\"commit\":\"a0575acb918e2ab3199a48cc8dd9729f55aa1c9a\",\"comment_id\":2628816}",
+  "public": true,
+  "repo": {
+    "id": 8149304,
+    "url": "https://github.com/chistyakov/RepBase",
+    "name": "RepBase"
+  },
   "actor": {
-    "id": null,
     "login": "chistyakov",
-    "gravatar_id": "cfb5f2bbaad8b7479298a7a9422fa850",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "cfb5f2bbaad8b7479298a7a9422fa850"
   },
   "created_at": "2013-02-15 08:02:07",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "",
@@ -32,13 +34,6 @@
       "type": "User",
       "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     }
-  },
-  "payload": "{\"commit\":\"a0575acb918e2ab3199a48cc8dd9729f55aa1c9a\",\"comment_id\":2628816}",
-  "public": true,
-  "repo": {
-    "id": 8149304,
-    "url": "https://github.com/chistyakov/RepBase",
-    "name": "RepBase"
   },
   "type": "CommitCommentEvent"
 }

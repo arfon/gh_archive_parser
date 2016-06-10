@@ -1,14 +1,16 @@
 {
+  "payload": "{\"id\":394378,\"url\":\"https://github.com/downloads/quarnster/CompleteSharp/CompleteSharp-1.0.19.sublime-package\"}",
+  "public": true,
+  "repo": {
+    "id": 4232991,
+    "url": "https://github.com/quarnster/CompleteSharp",
+    "name": "CompleteSharp"
+  },
   "actor": {
-    "id": null,
     "login": "quarnster",
-    "gravatar_id": "10a89302c6736c988ce06d8a41c923c0",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "10a89302c6736c988ce06d8a41c923c0"
   },
   "created_at": "2013-02-15 08:12:29",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "C# completion for SublimeText 2",
@@ -34,13 +36,6 @@
       "type": "User",
       "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     }
-  },
-  "payload": "{\"id\":394378,\"url\":\"https://github.com/downloads/quarnster/CompleteSharp/CompleteSharp-1.0.19.sublime-package\"}",
-  "public": true,
-  "repo": {
-    "id": 4232991,
-    "url": "https://github.com/quarnster/CompleteSharp",
-    "name": "CompleteSharp"
   },
   "type": "DownloadEvent"
 }

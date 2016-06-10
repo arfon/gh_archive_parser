@@ -1,4 +1,10 @@
 {
+  "payload": "{\"target\":{\"gravatar_id\":\"9210a60b1492363560375d9cd6c842de\",\"repos\":18,\"followers\":30,\"login\":\"mjijackson\"},\"actor\":\"balupton\",\"actor_gravatar\":\"cc4c27bbac18afe33fdce155758d854d\"}",
+  "public": true,
+  "repo": {
+    "url": "https://api.github.dev/repos//",
+    "name": "/"
+  },
   "actor": {
     "id": 61148,
     "login": "balupton",
@@ -8,16 +14,5 @@
   },
   "created_at": "2011-02-15 00:01:53",
   "id": "1132223592",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"target\":{\"gravatar_id\":\"9210a60b1492363560375d9cd6c842de\",\"repos\":18,\"followers\":30,\"login\":\"mjijackson\"},\"actor\":\"balupton\",\"actor_gravatar\":\"cc4c27bbac18afe33fdce155758d854d\"}",
-  "public": true,
-  "repo": {
-    "id": null,
-    "url": "https://api.github.dev/repos//",
-    "name": "/"
-  },
   "type": "FollowEvent"
 }

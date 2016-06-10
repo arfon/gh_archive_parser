@@ -1,4 +1,11 @@
 {
+  "payload": "{\"action\":\"started\"}",
+  "public": true,
+  "repo": {
+    "id": 117549,
+    "url": "https://api.github.dev/repos/toastdriven/django-haystack",
+    "name": "toastdriven/django-haystack"
+  },
   "actor": {
     "id": 1437645,
     "login": "rautiocination",
@@ -8,16 +15,5 @@
   },
   "created_at": "2012-02-15 00:00:00",
   "id": "1519871547",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"action\":\"started\"}",
-  "public": true,
-  "repo": {
-    "id": 117549,
-    "url": "https://api.github.dev/repos/toastdriven/django-haystack",
-    "name": "toastdriven/django-haystack"
-  },
   "type": "WatchEvent"
 }

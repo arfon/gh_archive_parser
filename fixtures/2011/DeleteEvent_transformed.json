@@ -1,4 +1,10 @@
 {
+  "payload": "{\"ref_type\":\"branch\",\"ref\":\"laptopwork\"}",
+  "public": true,
+  "repo": {
+    "url": "https://api.github.dev/repos//",
+    "name": "/"
+  },
   "actor": {
     "id": 615166,
     "login": "magicksid",
@@ -8,16 +14,5 @@
   },
   "created_at": "2011-02-15 00:02:15",
   "id": "1132223757",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"ref_type\":\"branch\",\"ref\":\"laptopwork\"}",
-  "public": true,
-  "repo": {
-    "id": null,
-    "url": "https://api.github.dev/repos//",
-    "name": "/"
-  },
   "type": "DeleteEvent"
 }

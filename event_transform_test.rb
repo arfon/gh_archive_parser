@@ -20,19 +20,28 @@ class Hash
 end
 
 class TestEventTransform < Test::Unit::TestCase
+
+  def assert_with_warn(file_name, body, field)
+    if !body.has_key?(field)
+      warn "#{file_name} doesn't have an #{field} key set"
+    else
+      assert body.has_key?(field)
+    end
+  end
+
   def test_parsed_structure
     (2011..2016).each do |year|
       fixtures = Dir.glob("fixtures/#{year}/*_encoded.json")
       fixtures.each do |fixture|
         parsed = JSON.parse(File.open(fixture).read)
-        assert parsed.has_key?('type')
-        assert parsed.has_key?('public')
-        assert parsed.has_key?('payload')
-        assert parsed.has_key?('repo')
-        assert parsed.has_key?('actor')
-        assert parsed.has_key?('org')
-        assert parsed.has_key?('created_at')
-        assert parsed.has_key?('id')
+        assert_with_warn(fixture, parsed, 'type')
+        assert_with_warn(fixture, parsed, 'public')
+        assert_with_warn(fixture, parsed, 'payload')
+        assert_with_warn(fixture, parsed, 'repo')
+        assert_with_warn(fixture, parsed, 'actor')
+        assert_with_warn(fixture, parsed, 'org')
+        assert_with_warn(fixture, parsed, 'created_at')
+        assert_with_warn(fixture, parsed, 'id')
       end
     end
   end

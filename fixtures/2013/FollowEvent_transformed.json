@@ -1,14 +1,11 @@
 {
+  "payload": "{\"target\":{\"id\":5639,\"login\":\"JEG2\",\"followers\":284,\"repos\":43,\"gravatar_id\":\"4299e35bacef054df40583da2d51edea\"}}",
+  "public": true,
   "actor": {
-    "id": null,
     "login": "zeroed",
-    "gravatar_id": "2151b67a581590c280289086c3434d88",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "2151b67a581590c280289086c3434d88"
   },
   "created_at": "2013-02-15 08:00:34",
-  "id": null,
-  "org": null,
   "other": {
     "actor_attributes": {
       "name": "Eddie",
@@ -16,8 +13,5 @@
       "type": "User"
     }
   },
-  "payload": "{\"target\":{\"id\":5639,\"login\":\"JEG2\",\"followers\":284,\"repos\":43,\"gravatar_id\":\"4299e35bacef054df40583da2d51edea\"}}",
-  "public": true,
-  "repo": null,
   "type": "FollowEvent"
 }

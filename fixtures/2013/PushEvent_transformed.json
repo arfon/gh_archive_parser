@@ -1,14 +1,16 @@
 {
+  "payload": "{\"shas\":[[\"85bb9257adc06a0776cf65abf029b216c7e10f9b\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com//index.html.\",\"Darren Chamberlain\",true],[\"5a2813d5de67a70d87c9a704c5af07a54a4a33f3\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com/news/politics/index.html.\",\"Darren Chamberlain\",true],[\"e5815a64d6d244bb444b4ed9fe36d1cb7324ddde\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com/sports/baseball/redsox/index.html.\",\"Darren Chamberlain\",true]],\"size\":3,\"ref\":\"refs/heads/master\",\"head\":\"e5815a64d6d244bb444b4ed9fe36d1cb7324ddde\"}",
+  "public": true,
+  "repo": {
+    "id": 3527704,
+    "url": "https://github.com/bcomdlc/bcom-homepage-archive",
+    "name": "bcom-homepage-archive"
+  },
   "actor": {
-    "id": null,
     "login": "bcomdlc",
-    "gravatar_id": "de96fb61582ea14d3d5cfb5219ba0f61",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "de96fb61582ea14d3d5cfb5219ba0f61"
   },
   "created_at": "2013-02-15 08:00:39",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "Boston.com Homepage Archive",
@@ -36,13 +38,6 @@
       "type": "User",
       "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     }
-  },
-  "payload": "{\"shas\":[[\"85bb9257adc06a0776cf65abf029b216c7e10f9b\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com//index.html.\",\"Darren Chamberlain\",true],[\"5a2813d5de67a70d87c9a704c5af07a54a4a33f3\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com/news/politics/index.html.\",\"Darren Chamberlain\",true],[\"e5815a64d6d244bb444b4ed9fe36d1cb7324ddde\",\"39afb6cb2f84a5645c2345b80cbfe0b45648600b@boston.com\",\"Automatic update to http://www.boston.com/sports/baseball/redsox/index.html.\",\"Darren Chamberlain\",true]],\"size\":3,\"ref\":\"refs/heads/master\",\"head\":\"e5815a64d6d244bb444b4ed9fe36d1cb7324ddde\"}",
-  "public": true,
-  "repo": {
-    "id": 3527704,
-    "url": "https://github.com/bcomdlc/bcom-homepage-archive",
-    "name": "bcom-homepage-archive"
   },
   "type": "PushEvent"
 }

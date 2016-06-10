@@ -20,17 +20,19 @@ class EventTransform
   # Return the event hash as described in
   # https://github.com/igrigorik/githubarchive.org/blob/master/bigquery/schema.js
   def parsed_event
-    {
-      'actor' => actor,
-      'created_at' => created_at,
-      'id' => id,
-      'org' => org,
-      'other' => other,
-      'payload' => Yajl::Encoder.encode(payload),
-      'public' => is_public,
-      'repo' => repo,
-      'type' => type
-    }
+    event = {
+              'payload' => Yajl::Encoder.encode(payload),
+              'public' => is_public
+            }
+
+    ['repo', 'actor', 'created_at', 'id', 'org', 'other', 'type'].each do |field|
+      # Don't include the field in the return event if it's empty.
+      value = self.send(field)
+      next if value.nil? || value.empty?
+      event[field] = value
+    end
+
+    return event
   end
 
   # Scrub emails from push events. Could include further logic in future
@@ -94,6 +96,7 @@ class EventTransform
 
   # Extract a field from the raw event body and extract the expected entries
   # for extraneous entries add them to the 'other' field.
+  # If a field is empty then drop the field (as Big Query doesn't like null values)
   def parse_field(field_name, expected_entries)
     event_field = raw_event.dup.delete(field_name)
 
@@ -105,7 +108,9 @@ class EventTransform
     parsed = {}
 
     expected_entries.each do |field|
-      parsed[field] = event_field.delete(field)
+      extracted = event_field.delete(field)
+      next if extracted.nil?
+      parsed[field] = extracted
     end
 
     # Are there extra fields?

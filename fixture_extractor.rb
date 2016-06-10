@@ -1,7 +1,7 @@
 require 'yajl'
 require 'yajl/json_gem'
 require 'zlib'
-require_relative '../event_transform'
+require_relative 'event_transform'
 
 # Count of all event types from 2011-02-15-0.json.gz
 events_2011 = {"CommitCommentEvent"=>25, "CreateEvent"=>243, "DeleteEvent"=>12, "DownloadEvent"=>7, "FollowEvent"=>48, "ForkApplyEvent"=>2, "ForkEvent"=>41, "GistEvent"=>39, "GollumEvent"=>49, "IssuesEvent"=>65, "MemberEvent"=>11, "PublicEvent"=>1, "PullRequestEvent"=>40, "PushEvent"=>889, "WatchEvent"=>167}
@@ -26,7 +26,7 @@ events_2016 = {"CommitCommentEvent"=>81, "CreateEvent"=>2965, "DeleteEvent"=>381
   `mkdir fixtures/#{year}`
 
   events = eval("events_#{year}")
-  archive_file = "../#{year}-02-15-0.json.gz"
+  archive_file = "files/#{year}-02-15-0.json.gz"
   gz = File.open(archive_file, 'r')
 
   begin

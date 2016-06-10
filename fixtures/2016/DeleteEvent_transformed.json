@@ -1,4 +1,11 @@
 {
+  "payload": "{\"ref\":\"restructuring\",\"ref_type\":\"branch\",\"pusher_type\":\"user\"}",
+  "public": true,
+  "repo": {
+    "id": 9300232,
+    "url": "https://api.github.com/repos/Baggykiin/BaggyBot-2",
+    "name": "Baggykiin/BaggyBot-2"
+  },
   "actor": {
     "id": 1516985,
     "login": "Baggykiin",
@@ -8,16 +15,5 @@
   },
   "created_at": "2016-02-15 00:00:10",
   "id": "3643335971",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"ref\":\"restructuring\",\"ref_type\":\"branch\",\"pusher_type\":\"user\"}",
-  "public": true,
-  "repo": {
-    "id": 9300232,
-    "url": "https://api.github.com/repos/Baggykiin/BaggyBot-2",
-    "name": "Baggykiin/BaggyBot-2"
-  },
   "type": "DeleteEvent"
 }

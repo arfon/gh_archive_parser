@@ -1,4 +1,11 @@
 {
+  "payload": "{\"repo\":\"mig/gedit-themes\",\"actor\":\"dwo\",\"comment_id\":271424,\"actor_gravatar\":\"742ec7d1886c1542984c988e61f76fa5\",\"commit\":\"f9b431473c0df08af57c11e3fe4f315b2d28a7a2\"}",
+  "public": true,
+  "repo": {
+    "id": 3206,
+    "url": "https://api.github.dev/repos/mig/gedit-themes",
+    "name": "mig/gedit-themes"
+  },
   "actor": {
     "id": 131652,
     "login": "dwo",
@@ -8,16 +15,5 @@
   },
   "created_at": "2011-02-15 00:00:50",
   "id": "1132221036",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"repo\":\"mig/gedit-themes\",\"actor\":\"dwo\",\"comment_id\":271424,\"actor_gravatar\":\"742ec7d1886c1542984c988e61f76fa5\",\"commit\":\"f9b431473c0df08af57c11e3fe4f315b2d28a7a2\"}",
-  "public": true,
-  "repo": {
-    "id": 3206,
-    "url": "https://api.github.dev/repos/mig/gedit-themes",
-    "name": "mig/gedit-themes"
-  },
   "type": "CommitCommentEvent"
 }

@@ -1,14 +1,16 @@
 {
+  "payload": "null",
+  "public": true,
+  "repo": {
+    "id": 16672310,
+    "url": "https://github.com/dimituri/ldn-scala-oop",
+    "name": "ldn-scala-oop"
+  },
   "actor": {
-    "id": null,
     "login": "dimituri",
-    "gravatar_id": "fed40b65e1edd1d296fb21574f12ea74",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "fed40b65e1edd1d296fb21574f12ea74"
   },
   "created_at": "2014-02-15 08:22:48",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "",
@@ -36,13 +38,6 @@
       "location": "Riga, Latvia",
       "email": "32aa11d9730e252b3f01a8a33a0541c798d724a4@gmail.com"
     }
-  },
-  "payload": "null",
-  "public": true,
-  "repo": {
-    "id": 16672310,
-    "url": "https://github.com/dimituri/ldn-scala-oop",
-    "name": "ldn-scala-oop"
   },
   "type": "PublicEvent"
 }

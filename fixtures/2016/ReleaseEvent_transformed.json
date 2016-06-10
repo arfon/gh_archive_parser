@@ -1,4 +1,11 @@
 {
+  "payload": "{\"action\":\"published\",\"release\":{\"url\":\"https://api.github.com/repos/westurner/pyline/releases/2613411\",\"assets_url\":\"https://api.github.com/repos/westurner/pyline/releases/2613411/assets\",\"upload_url\":\"https://uploads.github.com/repos/westurner/pyline/releases/2613411/assets{?name,label}\",\"html_url\":\"https://github.com/westurner/pyline/releases/tag/v0.3.9\",\"id\":2613411,\"tag_name\":\"v0.3.9\",\"target_commitish\":\"master\",\"name\":\"\",\"draft\":false,\"author\":{\"login\":\"westurner\",\"id\":50891,\"avatar_url\":\"https://avatars.githubusercontent.com/u/50891?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/westurner\",\"html_url\":\"https://github.com/westurner\",\"followers_url\":\"https://api.github.com/users/westurner/followers\",\"following_url\":\"https://api.github.com/users/westurner/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/westurner/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/westurner/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/westurner/subscriptions\",\"organizations_url\":\"https://api.github.com/users/westurner/orgs\",\"repos_url\":\"https://api.github.com/users/westurner/repos\",\"events_url\":\"https://api.github.com/users/westurner/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/westurner/received_events\",\"type\":\"User\",\"site_admin\":false},\"prerelease\":false,\"created_at\":\"2016-02-14T23:58:40Z\",\"published_at\":\"2016-02-15T00:00:08Z\",\"assets\":[],\"tarball_url\":\"https://api.github.com/repos/westurner/pyline/tarball/v0.3.9\",\"zipball_url\":\"https://api.github.com/repos/westurner/pyline/zipball/v0.3.9\",\"body\":\"\"}}",
+  "public": true,
+  "repo": {
+    "id": 19669888,
+    "url": "https://api.github.com/repos/westurner/pyline",
+    "name": "westurner/pyline"
+  },
   "actor": {
     "id": 50891,
     "login": "westurner",
@@ -8,16 +15,5 @@
   },
   "created_at": "2016-02-15 00:00:08",
   "id": "3643335916",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"action\":\"published\",\"release\":{\"url\":\"https://api.github.com/repos/westurner/pyline/releases/2613411\",\"assets_url\":\"https://api.github.com/repos/westurner/pyline/releases/2613411/assets\",\"upload_url\":\"https://uploads.github.com/repos/westurner/pyline/releases/2613411/assets{?name,label}\",\"html_url\":\"https://github.com/westurner/pyline/releases/tag/v0.3.9\",\"id\":2613411,\"tag_name\":\"v0.3.9\",\"target_commitish\":\"master\",\"name\":\"\",\"draft\":false,\"author\":{\"login\":\"westurner\",\"id\":50891,\"avatar_url\":\"https://avatars.githubusercontent.com/u/50891?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/westurner\",\"html_url\":\"https://github.com/westurner\",\"followers_url\":\"https://api.github.com/users/westurner/followers\",\"following_url\":\"https://api.github.com/users/westurner/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/westurner/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/westurner/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/westurner/subscriptions\",\"organizations_url\":\"https://api.github.com/users/westurner/orgs\",\"repos_url\":\"https://api.github.com/users/westurner/repos\",\"events_url\":\"https://api.github.com/users/westurner/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/westurner/received_events\",\"type\":\"User\",\"site_admin\":false},\"prerelease\":false,\"created_at\":\"2016-02-14T23:58:40Z\",\"published_at\":\"2016-02-15T00:00:08Z\",\"assets\":[],\"tarball_url\":\"https://api.github.com/repos/westurner/pyline/tarball/v0.3.9\",\"zipball_url\":\"https://api.github.com/repos/westurner/pyline/zipball/v0.3.9\",\"body\":\"\"}}",
-  "public": true,
-  "repo": {
-    "id": 19669888,
-    "url": "https://api.github.com/repos/westurner/pyline",
-    "name": "westurner/pyline"
-  },
   "type": "ReleaseEvent"
 }

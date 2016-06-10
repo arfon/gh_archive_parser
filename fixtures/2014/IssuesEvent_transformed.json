@@ -1,14 +1,16 @@
 {
+  "payload": "{\"action\":\"closed\",\"issue\":27644309,\"number\":1}",
+  "public": true,
+  "repo": {
+    "id": 16855455,
+    "url": "https://github.com/Kevin-Lei/PAS14",
+    "name": "PAS14"
+  },
   "actor": {
-    "id": null,
     "login": "Kevin-Lei",
-    "gravatar_id": "148344364dff9199caf2ef8f6400c023",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "148344364dff9199caf2ef8f6400c023"
   },
   "created_at": "2014-02-15 08:04:08",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "PennApps Spring 2014",
@@ -32,13 +34,6 @@
       "name": "Kevin Lei",
       "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     }
-  },
-  "payload": "{\"action\":\"closed\",\"issue\":27644309,\"number\":1}",
-  "public": true,
-  "repo": {
-    "id": 16855455,
-    "url": "https://github.com/Kevin-Lei/PAS14",
-    "name": "PAS14"
   },
   "type": "IssuesEvent"
 }

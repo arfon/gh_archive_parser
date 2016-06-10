@@ -1,4 +1,11 @@
 {
+  "payload": "{\"action\":\"started\"}",
+  "public": true,
+  "repo": {
+    "id": 1543827,
+    "url": "https://api.github.com/repos/moneyphp/money",
+    "name": "moneyphp/money"
+  },
   "actor": {
     "id": 5168122,
     "login": "moazam1",
@@ -14,16 +21,6 @@
     "gravatar_id": "",
     "avatar_url": "https://avatars.githubusercontent.com/u/17042185?",
     "url": "https://api.github.com/orgs/moneyphp"
-  },
-  "other": {
-
-  },
-  "payload": "{\"action\":\"started\"}",
-  "public": true,
-  "repo": {
-    "id": 1543827,
-    "url": "https://api.github.com/repos/moneyphp/money",
-    "name": "moneyphp/money"
   },
   "type": "WatchEvent"
 }

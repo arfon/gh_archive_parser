@@ -1,4 +1,11 @@
 {
+  "payload": "{\"title\":\"Home\",\"summary\":null,\"repo\":\"petrohi/redis\",\"sha\":\"f8c82813f19c50835a22b01ece3099ef3ee03644\",\"actor\":\"max1mbo\",\"page_name\":\"Home\",\"actor_gravatar\":\"88c32555bce7ba019ea5c9a0f8fca3a8\",\"action\":\"edited\"}",
+  "public": true,
+  "repo": {
+    "id": 1265364,
+    "url": "https://api.github.dev/repos/petrohi/redis",
+    "name": "petrohi/redis"
+  },
   "actor": {
     "id": 586789,
     "login": "max1mbo",
@@ -8,16 +15,5 @@
   },
   "created_at": "2011-02-15 00:00:10",
   "id": "1132219648",
-  "org": null,
-  "other": {
-
-  },
-  "payload": "{\"title\":\"Home\",\"summary\":null,\"repo\":\"petrohi/redis\",\"sha\":\"f8c82813f19c50835a22b01ece3099ef3ee03644\",\"actor\":\"max1mbo\",\"page_name\":\"Home\",\"actor_gravatar\":\"88c32555bce7ba019ea5c9a0f8fca3a8\",\"action\":\"edited\"}",
-  "public": true,
-  "repo": {
-    "id": 1265364,
-    "url": "https://api.github.dev/repos/petrohi/redis",
-    "name": "petrohi/redis"
-  },
   "type": "GollumEvent"
 }

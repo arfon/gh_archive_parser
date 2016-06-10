@@ -1,14 +1,16 @@
 {
+  "payload": "{\"ref\":\"stephen\",\"ref_type\":\"branch\"}",
+  "public": true,
+  "repo": {
+    "id": 8213845,
+    "url": "https://github.com/henrycjc/bookingsys",
+    "name": "bookingsys"
+  },
   "actor": {
-    "id": null,
     "login": "henrycjc",
-    "gravatar_id": "c554f0efe8991c845418957fefef9a63",
-    "avatar_url": null,
-    "url": null
+    "gravatar_id": "c554f0efe8991c845418957fefef9a63"
   },
   "created_at": "2013-02-15 08:01:26",
-  "id": null,
-  "org": null,
   "other": {
     "repository": {
       "description": "Game Server Booking System",
@@ -32,13 +34,6 @@
       "type": "User",
       "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
     }
-  },
-  "payload": "{\"ref\":\"stephen\",\"ref_type\":\"branch\"}",
-  "public": true,
-  "repo": {
-    "id": 8213845,
-    "url": "https://github.com/henrycjc/bookingsys",
-    "name": "bookingsys"
   },
   "type": "DeleteEvent"
 }

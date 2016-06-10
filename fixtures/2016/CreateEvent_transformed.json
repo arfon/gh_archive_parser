@@ -1,4 +1,11 @@
 {
+  "payload": "{\"ref\":null,\"ref_type\":\"repository\",\"master_branch\":\"master\",\"description\":\"Libraries that enable the execution of Hit and Run on the Neuromorphic system\",\"pusher_type\":\"user\"}",
+  "public": true,
+  "repo": {
+    "id": 51720291,
+    "url": "https://api.github.com/repos/usc-bbdl/hit-run-neuromorphic",
+    "name": "usc-bbdl/hit-run-neuromorphic"
+  },
   "actor": {
     "id": 5006976,
     "login": "solaremperor",
@@ -14,16 +21,6 @@
     "gravatar_id": "",
     "avatar_url": "https://avatars.githubusercontent.com/u/12720238?",
     "url": "https://api.github.com/orgs/usc-bbdl"
-  },
-  "other": {
-
-  },
-  "payload": "{\"ref\":null,\"ref_type\":\"repository\",\"master_branch\":\"master\",\"description\":\"Libraries that enable the execution of Hit and Run on the Neuromorphic system\",\"pusher_type\":\"user\"}",
-  "public": true,
-  "repo": {
-    "id": 51720291,
-    "url": "https://api.github.com/repos/usc-bbdl/hit-run-neuromorphic",
-    "name": "usc-bbdl/hit-run-neuromorphic"
   },
   "type": "CreateEvent"
 }
