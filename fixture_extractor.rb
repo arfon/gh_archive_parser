@@ -35,6 +35,32 @@ events_2016 = {"CommitCommentEvent"=>81, "CreateEvent"=>2965, "DeleteEvent"=>381
     puts "Empty file, no events"
   end
 
+  # Transform the fixture files...
+  output_file = File.new("files/#{year}-02-15-0.transformed.json.gz", 'w')
+  out = Zlib::GzipWriter.new(output_file)
+
+  cnt, skip = 0, 0
+  start = Time.now
+
+  Yajl::Parser.parse(js) do |event|
+    transformer = EventTransform.new(event)
+    transformer.process
+    tranformed_event = transformer.parsed_event
+
+    encoded = Yajl::Encoder.encode(tranformed_event)
+    # Finally write out the encoded event (what we load into BigQuery)
+    if encoded.size > 2*1024*1024
+      puts "Encoded size: #{encoded.size} exceeds 2MB row limit, skipping."
+      skip += 1
+    else
+      out.puts encoded
+      cnt += 1
+    end
+  end
+
+  out.close
+  puts "Transformed #{archive_file}: saved #{cnt}, skipped #{skip}. Runtime: #{(Time.now - start).round} seconds."
+
   # For each event type (e.g. CommitCommentEvent) extract one example and write
   # it to the fixtures/year/CommitCommentEvent_raw.json
   events.keys.each do |event_type|
