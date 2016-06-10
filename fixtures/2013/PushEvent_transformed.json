@@ -11,33 +11,6 @@
     "gravatar_id": "de96fb61582ea14d3d5cfb5219ba0f61"
   },
   "created_at": "2013-02-15 08:00:39",
-  "other": {
-    "repository": {
-      "description": "Boston.com Homepage Archive",
-      "homepage": "",
-      "watchers": 2,
-      "stargazers": 2,
-      "forks": 0,
-      "fork": false,
-      "size": 36956,
-      "owner": "bcomdlc",
-      "private": false,
-      "open_issues": 0,
-      "has_issues": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "created_at": "2012-02-23T09:24:29-08:00",
-      "pushed_at": "2013-02-15T00:00:24-08:00",
-      "master_branch": "master"
-    },
-    "actor_attributes": {
-      "name": "Darren Chamberlain",
-      "company": "The Boston Globe",
-      "blog": "http://www.boston.com/",
-      "location": "Boston, MA",
-      "type": "User",
-      "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    }
-  },
-  "type": "PushEvent"
+  "type": "PushEvent",
+  "other": "{\"repository\":{\"description\":\"Boston.com Homepage Archive\",\"homepage\":\"\",\"watchers\":2,\"stargazers\":2,\"forks\":0,\"fork\":false,\"size\":36956,\"owner\":\"bcomdlc\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"created_at\":\"2012-02-23T09:24:29-08:00\",\"pushed_at\":\"2013-02-15T00:00:24-08:00\",\"master_branch\":\"master\"},\"actor_attributes\":{\"name\":\"Darren Chamberlain\",\"company\":\"The Boston Globe\",\"blog\":\"http://www.boston.com/\",\"location\":\"Boston, MA\",\"type\":\"User\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"}}"
 }

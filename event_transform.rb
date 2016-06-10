@@ -19,18 +19,22 @@ class EventTransform
 
   # Return the event hash as described in
   # https://github.com/igrigorik/githubarchive.org/blob/master/bigquery/schema.js
+  # HACK HACK HACK
   def parsed_event
     event = {
               'payload' => Yajl::Encoder.encode(payload),
               'public' => is_public
             }
 
-    ['repo', 'actor', 'created_at', 'id', 'org', 'other', 'type'].each do |field|
+    ['repo', 'actor', 'created_at', 'id', 'org', 'type'].each do |field|
       # Don't include the field in the return event if it's empty.
       value = self.send(field)
       next if value.nil? || value.empty?
       event[field] = value
     end
+
+    # Worst. Code. Ever.
+    event['other'] = Yajl::Encoder.encode(other) if !other.empty?
 
     return event
   end

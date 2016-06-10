@@ -11,29 +11,6 @@
     "gravatar_id": "148344364dff9199caf2ef8f6400c023"
   },
   "created_at": "2014-02-15 08:04:08",
-  "other": {
-    "repository": {
-      "description": "PennApps Spring 2014",
-      "watchers": 1,
-      "stargazers": 1,
-      "forks": 0,
-      "fork": false,
-      "size": 0,
-      "owner": "Kevin-Lei",
-      "private": false,
-      "open_issues": 0,
-      "has_issues": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "created_at": "2014-02-14T18:59:04-08:00",
-      "pushed_at": "2014-02-14T18:59:04-08:00",
-      "master_branch": "master"
-    },
-    "actor_attributes": {
-      "type": "User",
-      "name": "Kevin Lei",
-      "email": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
-    }
-  },
-  "type": "IssuesEvent"
+  "type": "IssuesEvent",
+  "other": "{\"repository\":{\"description\":\"PennApps Spring 2014\",\"watchers\":1,\"stargazers\":1,\"forks\":0,\"fork\":false,\"size\":0,\"owner\":\"Kevin-Lei\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"created_at\":\"2014-02-14T18:59:04-08:00\",\"pushed_at\":\"2014-02-14T18:59:04-08:00\",\"master_branch\":\"master\"},\"actor_attributes\":{\"type\":\"User\",\"name\":\"Kevin Lei\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"}}"
 }
