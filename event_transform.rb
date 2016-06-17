@@ -183,7 +183,7 @@ class EventTransform
       return Digest::SHA1.hexdigest(email.to_s)
     else
       prefix, domain = email.strip.split('@')
-      return "#{Digest::SHA1.hexdigest(prefix)}@#{domain}"
+      return "#{Digest::SHA1.hexdigest(prefix.to_s)}@#{domain}"
     end
   end
 end
