@@ -5,7 +5,7 @@ require 'yajl'
 class EventParseError < StandardError; end
 
 class EventTransform
-  attr_accessor :actor, :created_at, :raw_event, :id, :org, :other, :payload, :is_public, :repo, :type
+  attr_accessor :actor, :created_at, :raw_event, :id, :org, :other, :payload, :is_public, :repo, :type, :url
 
   def initialize(event_json)
     @raw_event = event_json
@@ -62,6 +62,8 @@ class EventTransform
     @org = parse_org
 
     @created_at = parse_created_at
+
+    @url = parse_url
   end
 
   # The actor field needs special handling:
@@ -128,6 +130,12 @@ class EventTransform
 
   def parse_created_at
     return Time.parse(raw_event['created_at']).utc.strftime('%Y-%m-%d %T')
+  end
+
+  def parse_url
+    if raw_event.has_key?('url')
+      @other['url'] = raw_event['url']
+    end
   end
 
   def scrub_actor_attributes

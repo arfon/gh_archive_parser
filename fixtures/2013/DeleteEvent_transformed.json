@@ -12,5 +12,5 @@
   },
   "created_at": "2013-02-15 08:01:26",
   "type": "DeleteEvent",
-  "other": "{\"repository\":{\"description\":\"Game Server Booking System\",\"watchers\":0,\"stargazers\":0,\"forks\":0,\"fork\":false,\"size\":300,\"owner\":\"henrycjc\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"language\":\"PHP\",\"created_at\":\"2013-02-14T22:41:05-08:00\",\"pushed_at\":\"2013-02-15T00:01:26-08:00\",\"master_branch\":\"master\"},\"actor_attributes\":{\"type\":\"User\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"}}"
+  "other": "{\"repository\":{\"description\":\"Game Server Booking System\",\"watchers\":0,\"stargazers\":0,\"forks\":0,\"fork\":false,\"size\":300,\"owner\":\"henrycjc\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"language\":\"PHP\",\"created_at\":\"2013-02-14T22:41:05-08:00\",\"pushed_at\":\"2013-02-15T00:01:26-08:00\",\"master_branch\":\"master\"},\"actor_attributes\":{\"type\":\"User\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"},\"url\":\"https://github.com/\"}"
 }

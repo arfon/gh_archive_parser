@@ -7,5 +7,5 @@
   },
   "created_at": "2013-02-15 08:00:34",
   "type": "FollowEvent",
-  "other": "{\"actor_attributes\":{\"name\":\"Eddie\",\"email\":\"6eae3a5b062c6d0d79f070c26e6d62486b40cb46@...\",\"type\":\"User\"}}"
+  "other": "{\"actor_attributes\":{\"name\":\"Eddie\",\"email\":\"6eae3a5b062c6d0d79f070c26e6d62486b40cb46@...\",\"type\":\"User\"},\"url\":\"https://github.com/JEG2\"}"
 }

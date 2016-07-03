@@ -15,5 +15,5 @@
     "login": "cat-in-the-dark-wood"
   },
   "type": "TeamAddEvent",
-  "other": "{\"repository\":{\"description\":\"Leak memory with fun\",\"watchers\":0,\"stargazers\":0,\"forks\":0,\"fork\":false,\"size\":0,\"owner\":\"cat-in-the-dark-wood\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":false,\"language\":\"C\",\"created_at\":\"2014-02-15T00:03:09-08:00\",\"pushed_at\":\"2014-02-15T00:06:00-08:00\",\"master_branch\":\"master\",\"organization\":\"cat-in-the-dark-wood\"},\"actor_attributes\":{\"type\":\"Organization\",\"name\":\"CAT IN THE DARK WOOD\",\"location\":\"Russia, Omsk\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"}}"
+  "other": "{\"repository\":{\"description\":\"Leak memory with fun\",\"watchers\":0,\"stargazers\":0,\"forks\":0,\"fork\":false,\"size\":0,\"owner\":\"cat-in-the-dark-wood\",\"private\":false,\"open_issues\":0,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":false,\"language\":\"C\",\"created_at\":\"2014-02-15T00:03:09-08:00\",\"pushed_at\":\"2014-02-15T00:06:00-08:00\",\"master_branch\":\"master\",\"organization\":\"cat-in-the-dark-wood\"},\"actor_attributes\":{\"type\":\"Organization\",\"name\":\"CAT IN THE DARK WOOD\",\"location\":\"Russia, Omsk\",\"email\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\"},\"url\":\"https://github.com/cat-in-the-dark-wood\"}"
 }

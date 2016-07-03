@@ -2,5 +2,6 @@
   "payload": "{\"id\":9015962,\"url\":\"https://gist.github.com/9015962\",\"name\":\"gist: 9015962\",\"desc\":\"Bootstrap Customizer Config\",\"action\":\"create\"}",
   "public": true,
   "created_at": "2014-02-15 08:06:20",
-  "type": "GistEvent"
+  "type": "GistEvent",
+  "other": "{\"url\":\"https://gist.github.com/9015962\"}"
 }
