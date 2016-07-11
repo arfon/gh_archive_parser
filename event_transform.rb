@@ -2,6 +2,24 @@ require 'digest'
 require 'time'
 require 'yajl'
 
+# These are the top level fields in the GitHub event JSON across the different
+# eras.
+
+EXPECTED_FIELDS = %w{
+  actor
+  actor_attributes
+  created_at
+  id
+  org
+  organization
+  payload
+  public
+  repository
+  repo
+  type
+  url
+}
+
 class EventParseError < StandardError; end
 
 class EventTransform
@@ -48,6 +66,7 @@ class EventTransform
   # Extract the top-level schema fields from the raw event body and do any
   # necessary processing of the fields
   def extract_and_set_fields
+    check_fields
     @type = raw_event['type']
     @is_public = raw_event['public']
     @payload = raw_event['payload']
@@ -64,6 +83,12 @@ class EventTransform
     @created_at = parse_created_at
 
     @url = parse_url
+  end
+
+  def check_fields
+    raw_event.keys.each do |field|
+      warn "Unexpected field: #{field}" if !EXPECTED_FIELDS.include?(field)
+    end
   end
 
   # The actor field needs special handling:
